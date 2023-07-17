@@ -1,0 +1,128 @@
+body {
+    background-image: url(final\ background.png);
+    background-size:cover;
+}
+
+.container-md {
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 0.5px solid black;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 300px;
+    height: 360px;
+    transition: 1s;
+    margin: 15% auto;
+    border-radius: 50px;
+
+}
+img{
+    opacity: 0.5;
+}
+
+.outer {
+    background-color: blue;
+    width: 20vh;
+    height: 30vh;
+}
+
+.container-md:hover {
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.445);
+
+}
+
+.fa {
+    padding: 5px;
+    padding-top: 8px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 5px;
+
+
+}
+
+.fa:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 40px;
+
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.container-md button {
+    width: 180px;
+    border-radius: 50px;
+    background-color: #55ACEE;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 3px;
+    margin-left: 10px;
+}
+
+.container-md button:hover {
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 0, 0.372);
+
+}
+
+.container-md button:active {
+    background-color: rgba(255, 0, 0, 0.457);
+}
+
+h3 {
+    color: blue;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.container-md input {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 200px;
+    padding-left: 8px;
+    background-color: antiquewhite;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.container-md input:hover {
+    border-color: chocolate;
+    font-size: large;
+
+}
+
+.signup {
+    margin-left: 20px;
+}
+
+.container-md label:hover {
+    font-size: large;
+}
+
+a:hover {
+    font-size: large;
+}

@@ -1,0 +1,82 @@
+body {
+    background-image: url(back1.png);
+    background-size:cover;
+}
+
+.container-md {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 0.5px solid black;
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 260px;
+    height: 380px;
+    transition: 1s;
+    margin: 15% auto;
+    border-radius: 30px;
+
+}
+
+#login {
+    margin-left: 10%;
+
+}
+
+.container-md button {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #55ACEE;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 3px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.container-md:hover {
+    box-shadow: 3px 3px 10px 3px rgba(255, 255, 0, 0.445);
+
+}
+
+.container-md input {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 180px;
+    height: 20px;
+    padding-left: 8px;
+    background-color: antiquewhite;
+
+}
+
+a {
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: large;
+}
+
+h2 {
+    color: blue;
+    cursor: pointer;
+
+}
+
+.container-md button:hover {
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 0, 0.372);
+    height: 35px;
+    font-size: large;
+
+}
+
+.container-md button:active {
+    background-color: rgba(255, 0, 0, 0.457);
+}
+
+.container-md input:hover {
+    border-color: chocolate;
+    font-size: larger;
+    text-align: justify;
+}
+
+.container-md label:hover {
+    font-size: large;
+}
